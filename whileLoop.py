@@ -1,16 +1,14 @@
 
-i = 0
 
-while i <= 6:
+x = int(input("Enter a Number"))
 
+i=2
+while i<x:
+    y=x%i
+    if y==0:
+        print("It is not a Prime Number")
+        break
 
-    k=6-i
-    while k <= 6:
-        print(end=" ")
-        k = k+1
-    j = i
-    while j <= 6:
-        print("* ", end="")
-        j = j + 1
-    i = i + 1
-    print("")
+    i=i+1
+    print(i)
+print("Bye")
