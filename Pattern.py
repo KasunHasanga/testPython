@@ -1,3 +1,4 @@
+"""
 
 for i in range(6):
     for j in range(6):
@@ -30,4 +31,9 @@ while a<6:
     print("")
     a=a+1
 
+"""
+for i in range(4):
+    for j in range(4-i):
+        print(j+1, end="")
 
+    print("")
